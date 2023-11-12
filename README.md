@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Overview
 
-## Getting Started
+{Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
 
-First, run the development server:
+{Describe your purpose for writing this software.}
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Software Demo Video](http://youtube.link.goes.here)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Cloud Database
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+{Describe the cloud database you are using.}
 
-## Learn More
+{Describe the structure of the database that you created.}
 
-To learn more about Next.js, take a look at the following resources:
+# Development Environment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+{Describe the tools that you used to develop the software}
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+{Describe the programming language that you used and any libraries.}
 
-## Deploy on Vercel
+# Useful Websites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+{Make a list of websites that you found helpful in this project}
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Web Site Name](http://url.link.goes.here)
+- [Web Site Name](http://url.link.goes.here)
+
+# Future Work
+
+{Make a list of things that you need to fix, improve, and add in the future.}
+
+- Item 1
+- Item 2
+- Item 3
