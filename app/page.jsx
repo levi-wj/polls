@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 async function getPolls(setPolls, userId) {
   const sb = getSB();
   if (sb) {
-    const { data, error } = await getSB().rpc('get_polls', { user_id: userId });
+    const { data, error } = await getSB().rpc('get_polls', { my_user_id: userId });
     if (error) {
       console.error(error);
     } else {
@@ -29,6 +29,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    console.log(polls)
     const newEles = polls.map(poll => {
       return (
         <Poll key={poll.id} poll={poll}></Poll>

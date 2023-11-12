@@ -41,9 +41,6 @@ export default function Auth() {
             {loading ? <span>Loading</span> : <span>Send link</span>}
           </button>
         </div>
-        {/* <button className="btn-danger" type="button" onClick={() => sb.auth.signOut()}>
-          Sign Out
-        </button> */}
       </form>
       <div className="flex mb-5 gap-3">
         <Link href="#" className="text-gray-500">Contact</Link>

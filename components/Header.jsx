@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getSB } from "@/scripts/db";
 
 export default function Header() {
   return (
@@ -11,7 +12,7 @@ export default function Header() {
             <Link href="/create" className="text-gray-700 hover:bg-emerald-200 px-5 py-3 rounded-md text-sm font-medium hover:no-underline">Create Poll</Link>
           </div>
           <div className="flex">
-            <Link href="/profile" className="text-gray-700 hover:bg-emerald-200 px-5 py-3 rounded-md text-sm font-medium hover:no-underline">Profile</Link>
+            <Link href="#" className="text-gray-700 hover:bg-emerald-200 px-5 py-3 rounded-md text-sm font-medium hover:no-underline" onClick={() => getSB().auth.signOut()}>Sign out</Link>
           </div>
         </div>
       </div>
